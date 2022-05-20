@@ -579,6 +579,7 @@ header {
                 }
                 .types-item-right {
                     position: relative;
+                    max-width: 323px;
                     @include _767px() {
                         padding: 25px 0;
                     }
@@ -735,8 +736,7 @@ header {
         }
     }
 }
-#proizvodstvo,
-#partners {
+#proizvodstvo {
     padding: 60px 0;
     @include _767px() {
         padding: 20px 0;
@@ -802,6 +802,53 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+#partners {
+    h3 {
+        font-family: 'Nunito-Bold';
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        @include _576px() {
+            font-size: 21px;
+            line-height: 27px;
+        }
+    }
+    p {
+        font-family: 'Nunito-Regular';
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        max-width: 720px;
+        margin: 0 auto 30px;
+        @include _576px() {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        strong {
+            cursor: pointer;
+        }
+        a {
+            font-size: 20px;
+            margin-left: 3px;
+            text-decoration: underline;
+        }
+    }
+    .partners-wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .partners-item {
+            max-width: 200px;
+            margin: 20px;
+            @include _576px() {
+                max-width: 120px;
+            }
+            
         }
     }
 }

@@ -792,6 +792,7 @@ header .header-wrap .header-menu .header-lang select:focus {
 
 #types .container .types-parent .types-item .types-item-right {
   position: relative;
+  max-width: 323px;
 }
 
 @media (max-width: 767px) {
@@ -1002,20 +1003,17 @@ header .header-wrap .header-menu .header-lang select:focus {
   opacity: .5;
 }
 
-#proizvodstvo,
-#partners {
+#proizvodstvo {
   padding: 60px 0;
 }
 
 @media (max-width: 767px) {
-  #proizvodstvo,
-  #partners {
+  #proizvodstvo {
     padding: 20px 0;
   }
 }
 
-#proizvodstvo h3,
-#partners h3 {
+#proizvodstvo h3 {
   font-family: 'Nunito-Bold';
   font-size: 30px;
   line-height: 36px;
@@ -1025,15 +1023,13 @@ header .header-wrap .header-menu .header-lang select:focus {
 }
 
 @media (max-width: 576px) {
-  #proizvodstvo h3,
-  #partners h3 {
+  #proizvodstvo h3 {
     font-size: 21px;
     line-height: 27px;
   }
 }
 
-#proizvodstvo .proiz-wrap,
-#partners .proiz-wrap {
+#proizvodstvo .proiz-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1048,8 +1044,7 @@ header .header-wrap .header-menu .header-lang select:focus {
 }
 
 @media (max-width: 576px) {
-  #proizvodstvo .proiz-wrap,
-  #partners .proiz-wrap {
+  #proizvodstvo .proiz-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1058,63 +1053,117 @@ header .header-wrap .header-menu .header-lang select:focus {
   }
 }
 
-#proizvodstvo .proiz-wrap .proiz-img,
-#partners .proiz-wrap .proiz-img {
+#proizvodstvo .proiz-wrap .proiz-img {
   margin-right: 30px;
   text-align: center;
   max-width: 50%;
 }
 
-#proizvodstvo .proiz-wrap .proiz-img img,
-#partners .proiz-wrap .proiz-img img {
+#proizvodstvo .proiz-wrap .proiz-img img {
   width: 100%;
 }
 
 @media (max-width: 991px) {
-  #proizvodstvo .proiz-wrap .proiz-img,
-  #partners .proiz-wrap .proiz-img {
+  #proizvodstvo .proiz-wrap .proiz-img {
     margin-right: 20px;
     min-width: 240px;
   }
-  #proizvodstvo .proiz-wrap .proiz-img img,
-  #partners .proiz-wrap .proiz-img img {
+  #proizvodstvo .proiz-wrap .proiz-img img {
     max-width: 100%;
   }
 }
 
 @media (max-width: 576px) {
-  #proizvodstvo .proiz-wrap .proiz-img,
-  #partners .proiz-wrap .proiz-img {
+  #proizvodstvo .proiz-wrap .proiz-img {
     margin-right: 0;
     margin-bottom: 40px;
   }
 }
 
-#proizvodstvo .proiz-wrap .proiz-desc h4,
-#partners .proiz-wrap .proiz-desc h4 {
+#proizvodstvo .proiz-wrap .proiz-desc h4 {
   font-family: 'Nunito-Bold';
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 30px;
 }
 
-#proizvodstvo .proiz-wrap .proiz-desc p,
-#partners .proiz-wrap .proiz-desc p {
+#proizvodstvo .proiz-wrap .proiz-desc p {
   font-family: 'Nunito-Regular';
   font-size: 16px;
   line-height: 21px;
   margin-bottom: 30px;
 }
 
-#proizvodstvo .proiz-wrap .proiz-desc p strong,
-#partners .proiz-wrap .proiz-desc p strong {
+#proizvodstvo .proiz-wrap .proiz-desc p strong {
   text-decoration: underline;
 }
 
-#proizvodstvo .proiz-wrap .proiz-desc p strong a,
-#partners .proiz-wrap .proiz-desc p strong a {
+#proizvodstvo .proiz-wrap .proiz-desc p strong a {
   font-size: 20px;
   margin-left: 3px;
+}
+
+#partners h3 {
+  font-family: 'Nunito-Bold';
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  #partners h3 {
+    font-size: 21px;
+    line-height: 27px;
+  }
+}
+
+#partners p {
+  font-family: 'Nunito-Regular';
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 30px;
+}
+
+@media (max-width: 576px) {
+  #partners p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+#partners p strong {
+  cursor: pointer;
+}
+
+#partners p a {
+  font-size: 20px;
+  margin-left: 3px;
+  text-decoration: underline;
+}
+
+#partners .partners-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#partners .partners-wrap .partners-item {
+  max-width: 200px;
+  margin: 20px;
+}
+
+@media (max-width: 576px) {
+  #partners .partners-wrap .partners-item {
+    max-width: 120px;
+  }
 }
 
 #form-block {
