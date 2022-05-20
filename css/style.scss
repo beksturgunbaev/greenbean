@@ -847,6 +847,9 @@ header {
             margin: 20px;
             padding: 10px;
             background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             @include _576px() {
                 max-width: 145px;
                 margin: 14px;
