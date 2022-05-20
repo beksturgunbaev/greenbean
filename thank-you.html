@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you, we got your message</title>
+    <style>
+        body {
+            margin: 0;
+            background: aliceblue;
+        }
+        @font-face {
+          font-family: 'Nunito-Bold';
+          src: url(./fonts/Nunito-Bold.ttf);
+        }
+        @font-face {
+          font-family: 'Nunito-Regular';
+          src: url(./fonts/Nunito-Regular.ttf);
+        }
+        .success-title {
+            height: 100vh;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        .success-title h1 {
+            font-family: "Nunito-Bold";
+            font-size: 40px;display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            line-height: 48px;
+            text-align: center;
+            margin: 0 20px 0 0;
+        }
+        .succes-title-flex {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        .success-title img {
+            width: 42px;
+        }
+        .home_link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .home_link a {
+            font-family: 'Nunito-Regular';
+            color: #000;
+        }
+        @media screen and (max-width: 767px) {
+            .succes-title-flex {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column
+            }
+            .success-title h1 {
+                margin: 0 0 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="success-title">
+        <div>
+            <div class="succes-title-flex">
+                <h1>Ваша заявка успешно отправлена!</h1>
+                <img src="./img/check.png" alt="">
+            </div>
+            <div class="home_link">
+                <a href="./">Перейти на главную страницу</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
