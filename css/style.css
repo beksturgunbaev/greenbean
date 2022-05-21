@@ -199,19 +199,19 @@ section {
 }
 
 .mobile-menu.active {
-  left: -28%;
+  left: -25%;
 }
 
 .mobile-menu .mobile-logo {
   position: absolute;
   top: 30px;
-  left: 34%;
+  left: 30%;
 }
 
 .mobile-menu .menu-content {
   position: absolute;
   top: 50%;
-  left: 34%;
+  left: 30%;
   -webkit-transform: translate(0%, -50%);
           transform: translate(0%, -50%);
 }
@@ -231,7 +231,7 @@ section {
 
 @media (max-width: 440px) {
   .mobile-menu .menu-content ul li a {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -304,7 +304,7 @@ header .header-wrap .burger-menu span {
 
 header .header-wrap .header-btn button {
   font-family: 'Nunito-Bold';
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: #fff;
   background: transparent;
@@ -374,7 +374,7 @@ header .header-wrap .mobile-lang select:focus {
 }
 
 header .header-wrap .header-menu li {
-  margin-left: 30px;
+  margin-left: 24px;
 }
 
 @media (max-width: 1200px) {
@@ -389,8 +389,8 @@ header .header-wrap .header-menu li:first-child {
 
 header .header-wrap .header-menu li a {
   font-family: 'Nunito-SemiBold';
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 21px;
   -webkit-transition: .3s;
   transition: .3s;
   text-transform: uppercase;
@@ -404,7 +404,7 @@ header .header-wrap .header-menu .header-lang select {
   background: transparent;
   padding: 3px 7px;
   font-family: 'Nunito-SemiBold';
-  font-size: 18px;
+  font-size: 16px;
   background: #000;
   border: none;
 }
@@ -480,6 +480,12 @@ header .header-wrap .header-menu .header-lang select:focus {
 #about .extra-img-two {
   bottom: 0;
   right: 0;
+}
+
+@media (max-width: 767px) {
+  #about .about_title_div {
+    height: 129px;
+  }
 }
 
 #about .about-us {
@@ -1122,7 +1128,7 @@ header .header-wrap .header-menu .header-lang select:focus {
 #partners p {
   font-family: 'Nunito-Regular';
   font-size: 18px;
-  line-height: 28px;
+  line-height: 36px;
   text-align: center;
   max-width: 752px;
   margin: 0 auto 30px;

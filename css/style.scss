@@ -161,17 +161,17 @@ section {
     z-index: 99;
     transition: .3s;
     &.active {
-        left: -28%;
+        left: -25%;
     } 
     .mobile-logo {
         position: absolute;
         top: 30px;
-        left: 34%;
+        left: 30%;
     }
     .menu-content {
         position: absolute;
         top: 50%;
-        left: 34%;
+        left: 30%;
         transform: translate(0%, -50%);
         ul {
             li {
@@ -183,7 +183,7 @@ section {
                     transition: .3s;
                     text-transform: uppercase;
                     @include _440px() {
-                        font-size: 16px;
+                        font-size: 14px;
                     }
                 }
             }
@@ -235,7 +235,7 @@ header {
         .header-btn {
             button {
                 font-family: 'Nunito-Bold';
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 24px;
                 color: #fff;
                 background: transparent;
@@ -285,7 +285,7 @@ header {
                 display: none;
             }
             li {
-                margin-left: 30px;
+                margin-left: 24px;
                 @include _1200px() {
                     margin-left: 20px;
                 }
@@ -294,8 +294,8 @@ header {
                 }
                 a {
                     font-family: 'Nunito-SemiBold';
-                    font-size: 18px;
-                    line-height: 25px;
+                    font-size: 14px;
+                    line-height: 21px;
                     transition: .3s;
                     text-transform: uppercase;
                     &:hover {
@@ -308,7 +308,7 @@ header {
                     background: transparent;
                     padding: 3px 7px;
                     font-family: 'Nunito-SemiBold';
-                    font-size: 18px;
+                    font-size: 16px;
                     background: #000;
                     border: none;
                     &:focus {
@@ -365,6 +365,11 @@ header {
     .extra-img-two {
         bottom: 0;
         right: 0;
+    }
+    .about_title_div {
+        @include _767px() {
+            height: 129px;
+        }
     }
     .about-us {
         position: relative;
@@ -821,7 +826,7 @@ header {
     p {
         font-family: 'Nunito-Regular';
         font-size: 18px;
-        line-height: 28px;
+        line-height: 36px;
         text-align: center;
         max-width: 752px;
         margin: 0 auto 30px;

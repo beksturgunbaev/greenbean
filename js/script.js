@@ -88,6 +88,20 @@ $(document).ready(function() {
         }, 900);
     });
 
+    $('.partner-link').on("click", function(e){
+        e.preventDefault();
+        
+        if($(window).width() < 767) {
+            var top = $("#partners").offset().top -50;
+        } else {
+            var top = $("#partners").offset().top;
+        }
+        $('html,body').animate({
+        scrollTop: top
+        }, 900);
+    });
+
+
     $('.types-link').on("click", function(e){
         e.preventDefault();
         if($(window).width() < 767) {
